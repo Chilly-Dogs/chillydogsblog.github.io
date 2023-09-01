@@ -1,0 +1,51 @@
+body
+{
+	background-color: rgb(94, 235, 242);
+	margin:0;
+	padding:0;
+}
+ul
+{
+list-style-type: none;
+margin:0;
+padding:0;
+background-color: black;
+margin-bottom:100px;
+text-align: center;
+}
+li
+{
+color:white;
+font-size:50px;
+padding:14px 16px;
+display:inline-block;
+}
+
+video
+{
+	display:block;
+	margin:auto;
+	border-style: solid;
+	border-color:yellow;
+	border-width:10px;
+	max-width:510px;
+	max-height:270px;
+}
+
+
+#blog:hover
+{
+	text-decoration: underline;
+}
+#projects:hover
+{
+	text-decoration: underline;
+}
+
+@media only screen and (max-width:915px)
+{
+	video
+	{
+		width:300px;
+	}
+}
