@@ -29,39 +29,28 @@ display:inline-block;
 	text-decoration: underline;
 }
 
-div
-{
-	background-color: white;
-	width:500px;
-	display:block;
-	margin: auto;
-}
-h2
+#thoughts-on-God
 {
 	text-align: center;
+	background-color: black;
+	font-size:30px;
+	color:white;
+	border-style: solid;
+	border-radius: 10px;
+	border-color:black;
+
+	width:500px;
+	margin: auto;
+	box-sizing:border-box;
 }
-@media only screen and (max-width:428px)
+#thoughts-on-God:hover
 {
-	h2
-	{
-		font-size:15px;
-	}
-	div
-	{
-		width:350px;
-	}
-}
-@media only screen and (max-width:412px)
-{
-	h2
-	{
-		font-size:18px;
-	}
-	div
-	{
-		width:350px;
-	}
+	cursor:pointer;
+	opacity:0.8;
 }
 
-
+a
+{
+	text-decoration: none;
+}
 
