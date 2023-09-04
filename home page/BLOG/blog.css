@@ -1,0 +1,104 @@
+body
+{
+	background-color: rgb(94, 235, 242);
+	margin:0;
+	padding:0;
+}
+ul
+{
+list-style-type: none;
+margin:0;
+padding:0;
+background-color: black;
+margin-bottom:140px;
+text-align: center;
+}
+li
+{
+color:white;
+font-family:Arial;
+font-size:50px;
+padding:14px 16px;
+display:inline-block;
+}
+#home:hover
+{
+	text-decoration: underline;
+}
+#projects:hover
+{
+	text-decoration: underline;
+}
+
+h3
+{
+	font-family: Arial;
+}
+#thoughts-on-God
+{
+	text-align: center;
+	background-color: black;
+	font-size:30px;
+	color:white;
+	border-style: solid;
+	border-radius: 10px;
+	border-color:black;
+
+	max-width:500px;
+	margin: auto;
+	box-sizing:border-box;
+	margin-bottom: 30px;
+}
+#thoughts-on-God:hover
+{
+	cursor:pointer;
+	opacity:0.5;
+}
+#mentalward
+{
+width: 100%;
+position: fixed;
+margin-left:-250px;
+max-width:100px;
+height:70px;
+}
+#you
+{
+width: 100%;
+position: fixed;
+margin-left:30px;
+max-width:100px;
+height:70px;
+}
+#femcels
+{
+	background-color: rgb(255, 48, 255);
+	font-size:30px;
+	color:rgb(255, 224, 247);
+	border-style: solid;
+	border-radius: 10px;
+	border-color:black;
+	text-align: center;
+	max-width:500px;
+	margin: auto;
+	box-sizing:border-box;
+}
+#femcels:hover
+{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+
+a
+{
+	text-decoration: none;
+}
+
+@media screen only and (max-width:412px)
+{
+	#femcels
+	{
+
+	}
+}
