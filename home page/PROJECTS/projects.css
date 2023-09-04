@@ -1,0 +1,74 @@
+body
+{
+	background-color: rgb(94, 235, 242);
+	margin:0;
+	padding:0;
+}
+ul
+{
+list-style-type: none;
+margin:0;
+padding:0;
+background-color: black;
+margin-bottom:70px;
+text-align: center;
+}
+li
+{
+color:white;
+font-family: Arial;
+font-size:50px;
+padding:14px 16px;
+display:inline-block;
+}
+#blog:hover
+{
+	text-decoration: underline;
+}
+#home:hover
+{
+	text-decoration: underline;
+}
+
+
+#clown
+{
+	width:200px;
+	height:160px;
+	display:block;
+	margin:auto;
+	margin-bottom: 10px;
+}
+p
+{
+	text-align: center;
+	font-weight:bold;
+	font-family: "Open Sans",Arial;
+}
+#sideshow-header
+{
+	font-size:50px;
+	color:rgb(255, 247, 3);
+	letter-spacing: 5px;
+	margin-bottom:0px;
+	background-color: black;
+	max-width:300px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+#future-project
+{
+	font-size:25px;
+	color:white;
+	background-color: black;
+	max-width:560px;
+	margin:auto;
+}
+
+@media only screen and (max-width:915px)
+{
+	video
+	{
+		width:300px;
+	}
+}
