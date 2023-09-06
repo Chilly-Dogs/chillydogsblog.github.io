@@ -44,18 +44,8 @@ video
 	text-decoration: underline;
 }
 
-#sonic-text
-{
-	text-align: center;
-	font-family: "Open Sans",Arial;
-	color:white;
-	font-size:30px;
-	font-weight: bold;
-	background-color: black;
-	max-width:170px;
-	margin: auto;
-}
-#sonic
+
+#bladerunner
 {
 	margin: auto;
 	display: block;
@@ -65,11 +55,46 @@ video
 	border-color: rgb(224, 162, 108);
 	border-width: 10px;
 }
+#bladerunner-text
+{
+	text-align: center;
+	font-family: "Open Sans",Arial;
+	color:white;
+	font-size:15px;
+	font-weight: bold;
+	background-color: black;
+	max-width:300px;
+	margin: auto;
+	margin-bottom:30px;
+}
+#me
+{
+	margin: auto;
+	display: block;
+	width:100%;
+	max-width: 300px;
+	border-style: solid;
+	border-color: rgb(224, 162, 108);
+	border-width: 10px;
+}
+#me-text
+{
+	text-align: center;
+	font-family: "Open Sans",Arial;
+	color:white;
+	font-size:15px;
+	font-weight: bold;
+	background-color: black;
+	max-width:300px;
+	margin: auto;
+}
 
-@media only screen and (max-width:915px)
+
+@media only screen and (max-width:412px)
 {
 	video
 	{
 		width:300px;
+		
 	}
 }
