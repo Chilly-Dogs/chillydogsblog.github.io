@@ -21,20 +21,10 @@ font-size:50px;
 padding:14px 16px;
 display:inline-block;
 }
-
-video
+#home:hover
 {
-	display:block;
-	margin:auto;
-	border-style: solid;
-	border-color:yellow;
-	border-width:10px;
-	max-width:510px;
-	max-height:270px;
-	margin-bottom: 70px;
+	text-decoration: underline;
 }
-
-
 #blog:hover
 {
 	text-decoration: underline;
@@ -45,60 +35,39 @@ video
 }
 
 
-#bladerunner
+
+
+#discord-image
 {
 	margin: auto;
 	display: block;
 	width:100%;
-	max-width: 300px;
+	max-width: 500px;
 	border-style: solid;
 	border-color: rgb(224, 162, 108);
 	border-width: 10px;
 }
-#bladerunner-text
+#discord-text
 {
 	text-align: center;
 	font-family: "Open Sans",Arial;
 	color:white;
+	font-size:30px;
+	font-weight: bold;
+	background-color: black;
+	max-width:500px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+#discord-tag
+{
+	text-align: center;
+	font-family: "Open Sans",Arial;
+	color:yellow;
 	font-size:15px;
 	font-weight: bold;
 	background-color: black;
-	max-width:300px;
+	max-width:210px;
 	margin: auto;
 	margin-bottom:30px;
-}
-#me
-{
-	margin: auto;
-	display: block;
-	width:100%;
-	max-width: 300px;
-	border-style: solid;
-	border-color: rgb(224, 162, 108);
-	border-width: 10px;
-}
-#me-text
-{
-	text-align: center;
-	font-family: "Open Sans",Arial;
-	color:white;
-	font-size:15px;
-	font-weight: bold;
-	background-color: black;
-	max-width:300px;
-	margin: auto;
-}
-#store:hover
-{
-	text-decoration: underline;
-}
-
-
-@media only screen and (max-width:412px)
-{
-	video
-	{
-		width:300px;
-		
-	}
 }

@@ -29,6 +29,10 @@ display:inline-block;
 {
 	text-decoration: underline;
 }
+#store:hover
+{
+	text-decoration: underline;
+}
 
 
 #clown
