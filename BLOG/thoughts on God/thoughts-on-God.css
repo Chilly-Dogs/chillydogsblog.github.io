@@ -7,12 +7,14 @@ body
 #header
 {
 	margin-top:0px;
+	margin: auto;
 	padding: 14px 16px;
-	color:white;
+	color:yellow;
 	text-align: center;
 	background-color: black;
 	font-weight: bold;
 	font-size: 53px;
+	margin-bottom: 30px;
 }
 p
 {
@@ -71,8 +73,29 @@ p
 
 @media only screen and (max-width:412px)
 {
-	p
+	#header
 	{
-		font-size: 20px;
+		font-size: 30px;
+		max-width: 400px;
+	}
+	#nephilim
+	{
+		font-size: 25px;
+		max-width: 350px;
+	}
+	#devout
+	{
+		font-size: 25px;
+		max-width: 350px;
+	}
+	#heaven
+	{
+		font-size: 25px;
+		max-width: 350px;
+	}
+	#created-who
+	{
+		font-size: 25px;
+		max-width: 350px;
 	}
 }

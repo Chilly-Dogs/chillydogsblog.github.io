@@ -64,31 +64,32 @@ display:inline-block;
 	text-align: center;
 	font-family: "Open Sans",Arial;
 	color:yellow;
-	font-size:15px;
+	font-size:25px;
 	font-weight: bold;
 	background-color: black;
-	max-width:210px;
+	max-width:300px;
 	margin: auto;
 
 }
-#my-fiverr
+#fiverr
 {
-	text-align: center;
-	position: relative;
-	top:70px;
+			text-align: center;
 	font-family: "Open Sans",Arial;
-	color:rgb(0, 255, 106);
-	font-size:30px;
+	color:rgb(33, 255, 100);
+	font-size:50px;
 	font-weight: bold;
 	background-color: black;
-	max-width:170px;
+	max-width:340px;
 	margin: auto;
+	margin-top:100px;
+	margin-bottom:50px;
 }
-#my-fiverr:hover
+#fiverr:hover
 {
 	text-decoration: underline;
-	cursor:pointer;
+	cursor: pointer;
 }
+
 
 @media only screen and (max-width:412px)
 {

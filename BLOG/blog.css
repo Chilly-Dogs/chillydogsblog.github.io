@@ -100,4 +100,35 @@ a
 	text-decoration: none;
 }
 
-
+@media only screen and (max-width:412px)
+{
+	#thoughts-on-God
+	{
+		max-width: 380x;
+	}
+}
+@media only screen and (max-width:360px)
+{
+	#femcels
+	{
+		max-width:300px;
+		font-size: 20px;
+	}
+	#you
+	{
+		max-width: 45px;
+		height:48px;
+		margin-left: 40px;
+	}
+	#mentalward
+	{
+		max-width: 45px;
+		height:48px;
+		margin-left: -170px;
+	}
+	#thoughts-on-God
+	{
+		max-width: 300px;
+		font-size:20px;
+	}
+}

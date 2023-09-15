@@ -1,6 +1,6 @@
 
 
-function fiver()
+function Fiverr() 
 {
-	window.open("https://www.fiverr.com/chillydogs","_blank");
-}
+	open("https://www.fiverr.com/chillydogs","_blank");
+} 

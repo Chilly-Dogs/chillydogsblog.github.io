@@ -21,7 +21,7 @@ p
 }
 #header-text
 {
-	font-size:14px;
+	
 
 	letter-spacing: 1px;
 	font-weight: bold;	
@@ -146,4 +146,55 @@ p
 	max-width: 650px;
 	margin: auto;
 	margin-bottom: 20px;
+}
+
+@media only screen and (max-width:412px)
+{
+	#femcels-weird
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
+	#if-you-browsed
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
+	#fed-msg
+	{
+		max-width: 300px;
+	}
+	#potential-jackpot
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
+	#talk-primarily
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
+	#nikki
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
+	#piss-girl
+	{
+		max-width: 300px;
+	}
+	#fed-posting
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
+	#misa
+	{
+		max-width: 300px;
+	}
+	#end
+	{
+		font-size: 18px;
+		max-width: 360px;
+	}
 }
