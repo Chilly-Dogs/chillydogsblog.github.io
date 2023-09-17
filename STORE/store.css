@@ -24,14 +24,22 @@ display:inline-block;
 #home:hover
 {
 	text-decoration: underline;
+	opacity: 0.8;
+}
+#info:hover
+{
+	text-decoration: underline;
+	opacity: 0.8;
 }
 #blog:hover
 {
 	text-decoration: underline;
+	opacity: 0.8;
 }
 #projects:hover
 {
 	text-decoration: underline;
+	opacity: 0.8;
 }
 
 
@@ -59,36 +67,7 @@ display:inline-block;
 	margin: auto;
 	margin-bottom: 10px;
 }
-#discord-tag
-{
-	text-align: center;
-	font-family: "Open Sans",Arial;
-	color:yellow;
-	font-size:25px;
-	font-weight: bold;
-	background-color: black;
-	max-width:300px;
-	margin: auto;
 
-}
-#fiverr
-{
-			text-align: center;
-	font-family: "Open Sans",Arial;
-	color:rgb(33, 255, 100);
-	font-size:50px;
-	font-weight: bold;
-	background-color: black;
-	max-width:340px;
-	margin: auto;
-	margin-top:100px;
-	margin-bottom:50px;
-}
-#fiverr:hover
-{
-	text-decoration: underline;
-	cursor: pointer;
-}
 
 
 @media only screen and (max-width:412px)

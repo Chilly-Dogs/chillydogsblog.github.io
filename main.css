@@ -38,10 +38,12 @@ video
 #blog:hover
 {
 	text-decoration: underline;
+	opacity: 0.8;
 }
 #projects:hover
 {
 	text-decoration: underline;
+	opacity: 0.8;
 }
 
 
@@ -90,6 +92,12 @@ video
 }
 #store:hover
 {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+#info:hover
+{
+	opacity: 0.8;
 	text-decoration: underline;
 }
 

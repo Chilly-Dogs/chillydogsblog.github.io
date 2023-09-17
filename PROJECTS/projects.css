@@ -23,14 +23,22 @@ display:inline-block;
 }
 #blog:hover
 {
+	opacity: 0.8;
 	text-decoration: underline;
 }
 #home:hover
 {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+#info:hover
+{
+	opacity: 0.8;
 	text-decoration: underline;
 }
 #store:hover
 {
+		opacity: 0.8;
 	text-decoration: underline;
 }
 
