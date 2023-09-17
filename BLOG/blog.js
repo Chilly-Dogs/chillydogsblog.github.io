@@ -12,3 +12,7 @@ function FemcelBlogClick()
 {
 	window.open("femcels/femcels.html","_blank");
 }
+function GodExperienceBlogClick()
+{
+	open("experience with God/experience.html","_blank");
+}

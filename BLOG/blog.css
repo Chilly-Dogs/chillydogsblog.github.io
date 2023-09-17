@@ -4,6 +4,10 @@ body
 	margin:0;
 	padding:0;
 }
+a
+{
+	text-decoration: none;
+}
 ul
 {
 list-style-type: none;
@@ -94,11 +98,33 @@ height:70px;
 	opacity: 0.5;
 }
 
-
-a
+#experienceGod
 {
-	text-decoration: none;
+	background-color: black;
+	font-size:30px;
+	color:red;
+	border-style: solid;
+	border-radius: 10px;
+	border-color:black;
+	max-width:500px;
+	margin: auto;
+	box-sizing:border-box;
+	margin-bottom: 30px;
 }
+#experienceGod:hover
+{
+	cursor:pointer;
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:412px)
 {
