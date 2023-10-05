@@ -90,11 +90,6 @@ video
 	max-width:300px;
 	margin: auto;
 }
-#store:hover
-{
-	text-decoration: underline;
-	opacity: 0.8;
-}
 #info:hover
 {
 	opacity: 0.8;
