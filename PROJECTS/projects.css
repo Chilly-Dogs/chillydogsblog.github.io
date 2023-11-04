@@ -21,6 +21,10 @@ font-size:50px;
 padding:14px 16px;
 display:inline-block;
 }
+#projects
+{
+	opacity: 0.4;
+}
 #blog:hover
 {
 	opacity: 0.8;

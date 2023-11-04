@@ -34,7 +34,10 @@ video
 	margin-bottom: 70px;
 }
 
-
+#home
+{
+	opacity: 0.4;
+}
 #blog:hover
 {
 	text-decoration: underline;

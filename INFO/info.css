@@ -21,6 +21,10 @@ font-size:50px;
 padding:14px 16px;
 display:inline-block;
 }
+#info
+{
+	opacity: 0.4;
+}
 #home:hover
 {
 	opacity: 0.8;
