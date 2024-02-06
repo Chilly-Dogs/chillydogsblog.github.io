@@ -16,3 +16,11 @@ function GodExperienceBlogClick()
 {
 	open("experience with God/experience.html","_blank");
 }
+function FlightLogs()
+{
+	open("flight logs/flight.html","_blank");
+}
+function MyDream()
+{
+	open("my dream/dream.html","_blank");
+}

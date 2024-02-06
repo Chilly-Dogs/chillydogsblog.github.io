@@ -73,7 +73,7 @@ h3
 #mentalward
 {
 width: 100%;
-position: fixed;
+position: absolute;
 margin-left:-250px;
 max-width:100px;
 height:70px;
@@ -81,7 +81,7 @@ height:70px;
 #you
 {
 width: 100%;
-position: fixed;
+position: absolute;
 margin-left:30px;
 max-width:100px;
 height:70px;
@@ -123,8 +123,44 @@ height:70px;
 	cursor:pointer;
 	opacity: 0.5;
 }
-
-
+#flight-logs
+{
+	background-image: url("images/jeffrey.webp");
+	background-position-y: 300px;
+	background-position-x: 100px;
+	font-size:30px;
+	color:yellow;
+	border-style: solid;
+	border-radius: 10px;
+	border-color:black;
+	max-width:500px;
+	margin: auto;
+	box-sizing:border-box;
+	margin-bottom: 30px;
+}
+#flight-logs:hover
+{
+	cursor:pointer;
+	opacity: 0.5;
+}
+#my-dream
+{
+	background-color: black;
+	font-size:30px;
+	color:yellow;
+	border-style: solid;
+	border-radius: 10px;
+	border-color:black;
+	max-width:500px;
+	margin: auto;
+	box-sizing:border-box;
+	margin-bottom: 30px;
+}
+#my-dream:hover
+{
+	cursor:pointer;
+	opacity: 0.5;
+}
 
 
 
@@ -136,14 +172,11 @@ height:70px;
 
 @media only screen and (max-width:412px)
 {
-	#thoughts-on-God
+	li,ul,a
 	{
-		max-width: 380x;
+		font-size: 22px;
 	}
-}
-@media only screen and (max-width:360px)
-{
-	#femcels
+		#femcels
 	{
 		max-width:300px;
 		font-size: 20px;
@@ -165,4 +198,15 @@ height:70px;
 		max-width: 300px;
 		font-size:20px;
 	}
+	#experienceGod
+	{
+		max-width: 300px;
+		font-size:20px;
+	}
+	#flight-logs
+	{
+		max-width: 300px;
+		font-size:20px;
+	}
 }
+

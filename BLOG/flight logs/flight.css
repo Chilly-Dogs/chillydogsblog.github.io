@@ -1,0 +1,65 @@
+body
+{
+	background-color: rgb(237, 255, 163);
+	margin:0;
+	padding: 0;
+}
+
+img
+{
+	width:100%;
+	max-width: 600px;
+	height:300px;
+	display: block;
+	margin:auto;
+}
+p
+{
+	font-family: "Open Sans",Arial;
+	font-weight: bold;
+	font-size:24px;
+	text-align: center;
+}
+#where-list
+{
+	margin-top:0px;
+	margin-bottom:50px;
+}
+#rant1
+{
+background-color: black;
+color:white;
+max-width: 500px;
+margin: auto;
+margin-bottom:30px;
+}
+#rant2
+{
+background-color: black;
+color:white;
+max-width: 500px;
+margin: auto;
+}
+
+#whatever
+{
+	margin-top:60px;
+	font-size: 20px;
+}
+
+
+@media only screen and (max-width:412px)
+{
+	#where-list
+	{
+		font-size:20px;
+	}
+	p
+	{
+		font-size:18px;
+	}
+	#whatever
+	{
+		font-size:20px;
+	}
+}

@@ -86,6 +86,10 @@ img:hover
 }
 @media only screen and (max-width:412px)
 {
+	li,ul,a
+	{
+		font-size: 22px;
+	}
 	img
 	{
 		max-width: 90px;
